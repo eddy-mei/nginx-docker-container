@@ -1,0 +1,27 @@
+{
+  "name": "nginx-docker-container",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:svr": "node ./src/test-server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eddy-mei/nginx-docker-container.git"
+  },
+  "keywords": [
+    "NGINX",
+    "DevContainer"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eddy-mei/nginx-docker-container/issues"
+  },
+  "homepage": "https://github.com/eddy-mei/nginx-docker-container#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.17"
+  }
+}
