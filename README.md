@@ -10,3 +10,11 @@ Setup DevContainer for Visual Studio Code
 ![alt devcontainer gadget](https://github.com/eddy-mei/nginx-docker-container/blob/main/docs/dev-container-gadget.png?raw=true)
 7. Choose the Node.js & TypeScript predefined base container image, or Node.js & Javascript base container image  
 8. Install NGINX on top of the base image to work with
+
+#####
+# Create node project
+1. Geneate tsconfig.json with the following command   
+  npx tsc --init
+2. Generate package.json with npm command  
+  npm init 
+3.  
